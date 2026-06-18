@@ -29,6 +29,8 @@ import { ref, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import portada from '../assets/portada.jpeg'
 
+const urlScholLink = import.meta.env.VITE_API_URL
+
 const { t } = useI18n()
 const textRef = ref(null)
 const imgRef = ref(null)
