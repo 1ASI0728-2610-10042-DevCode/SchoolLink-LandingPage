@@ -33,7 +33,7 @@ import { useI18n } from 'vue-i18n'
 import IconTablet from '../assets/Icons/Icon_tablet.png'
 import IconChat from '../assets/Icons/Icon_chat.png'
 import IconNoti from '../assets/Icons/Icon_noti.png'
-import video from '../assets/Videos/prueba.mp4'
+import video from '../assets/Videos/About The Product.mp4'
 
 const { t, tm } = useI18n()
 const titleRef = ref(null)
